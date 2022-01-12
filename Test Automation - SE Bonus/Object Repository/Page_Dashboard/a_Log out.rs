@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://localhost/login/logout.php?sesskey=KJCe6ciuDO</value>
+      <value>http://localhost/login/logout.php?sesskey=tv7joDzprj</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://localhost/login/logout.php?sesskey=KJCe6ciuDO']</value>
+      <value>//a[@href='http://localhost/login/logout.php?sesskey=tv7joDzprj']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,5 +123,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[6]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://localhost/login/logout.php?sesskey=KJCe6ciuDO']</value>
    </webElementXpaths>
 </WebElementEntity>
