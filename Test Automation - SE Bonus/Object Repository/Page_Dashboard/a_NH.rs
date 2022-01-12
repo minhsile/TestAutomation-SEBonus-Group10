@@ -3,6 +3,7 @@
    <description></description>
    <name>a_NH</name>
    <tag></tag>
+<<<<<<< Updated upstream
    <elementGuidId>583fe7c1-c84a-4143-89f2-a84d91a6d924</elementGuidId>
    <selectorCollection>
       <entry>
@@ -13,6 +14,18 @@
          <key>CSS</key>
          <value>#user-menu-toggle</value>
       </entry>
+=======
+   <elementGuidId>d3ee241c-ce9b-43bc-add9-e98fba747fdb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#user-menu-toggle</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='user-menu-toggle']</value>
+      </entry>
+>>>>>>> Stashed changes
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>

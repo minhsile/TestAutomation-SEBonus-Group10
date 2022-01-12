@@ -29,11 +29,27 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Home page Log in t
 
 WebUI.click(findTestObject('Object Repository/Page_Home page Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_My courses'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Home'))
 
-WebUI.click(findTestObject('Object Repository/Page_My courses/a_NH'))
+WebUI.setText(findTestObject('Object Repository/Page_Home page/input_Search courses_q'), 'SE')
 
-WebUI.click(findTestObject('Object Repository/Page_My courses/a_Log out'))
+WebUI.click(findTestObject('Object Repository/Page_Home page/button_Search courses'))
+
+WebUI.click(findTestObject('Object Repository/Page_Home page  Search results/a_Software Engineering'))
+
+WebUI.click(findTestObject('Object Repository/Page_SE/a_Course'))
+
+WebUI.click(findTestObject('Object Repository/Page_SE/a_Home'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Home page/input_Search courses_q_1'), 'HQTCSDL')
+
+WebUI.click(findTestObject('Object Repository/Page_Home page/button_Search courses'))
+
+WebUI.click(findTestObject('Object Repository/Page_Home page  Search results/a_H quan tri c s d liu'))
+
+WebUI.click(findTestObject('Object Repository/Page_Home page  Search results/a_NH'))
+
+WebUI.click(findTestObject('Object Repository/Page_Home page  Search results/a_Log out'))
 
 WebUI.closeBrowser()
 

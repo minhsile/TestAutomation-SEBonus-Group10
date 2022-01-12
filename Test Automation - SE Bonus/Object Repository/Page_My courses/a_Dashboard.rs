@@ -3,6 +3,7 @@
    <description></description>
    <name>a_Dashboard</name>
    <tag></tag>
+<<<<<<< Updated upstream
    <elementGuidId>18734f20-0ced-49f9-81eb-b11f86365f9c</elementGuidId>
    <selectorCollection>
       <entry>
@@ -13,6 +14,18 @@
          <key>CSS</key>
          <value></value>
       </entry>
+=======
+   <elementGuidId>bd2729a4-4136-45fa-b26e-977d435eab88</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='moremenu-61de9a63d8abe-navbar-nav']/li[2]/a</value>
+      </entry>
+>>>>>>> Stashed changes
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -65,14 +78,22 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
+<<<<<<< Updated upstream
       <value>id(&quot;moremenu-61de9c86f34fb-navbar-nav&quot;)/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
+=======
+      <value>id(&quot;moremenu-61de9a63d8abe-navbar-nav&quot;)/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
+>>>>>>> Stashed changes
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
+<<<<<<< Updated upstream
       <value>//ul[@id='moremenu-61de9c86f34fb-navbar-nav']/li[2]/a</value>
+=======
+      <value>//ul[@id='moremenu-61de9a63d8abe-navbar-nav']/li[2]/a</value>
+>>>>>>> Stashed changes
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

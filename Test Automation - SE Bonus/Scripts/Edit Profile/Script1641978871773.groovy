@@ -29,11 +29,24 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Home page Log in t
 
 WebUI.click(findTestObject('Object Repository/Page_Home page Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_My courses'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_NH'))
 
-WebUI.click(findTestObject('Object Repository/Page_My courses/a_NH'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Profile'))
 
-WebUI.click(findTestObject('Object Repository/Page_My courses/a_Log out'))
+WebUI.click(findTestObject('Object Repository/Page_Nguyen Hoa Public profile/a_Edit profile'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Group10 Edit profile/input_Citytown_city'), 'HCM')
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Group10 Edit profile/select_Select a country.            Afghani_160506'), 
+    'VN', true)
+
+WebUI.click(findTestObject('Object Repository/Page_Group10 Edit profile/input_Email address_email'))
+
+WebUI.click(findTestObject('Object Repository/Page_Group10 Edit profile/input_Address_submitbutton'))
+
+WebUI.click(findTestObject('Object Repository/Page_Nguyen Hoa Public profile/a_NH'))
+
+WebUI.click(findTestObject('Object Repository/Page_Nguyen Hoa Public profile/a_Log out'))
 
 WebUI.closeBrowser()
 

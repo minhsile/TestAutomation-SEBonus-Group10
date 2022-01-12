@@ -23,17 +23,34 @@ WebUI.navigateToUrl('http://localhost/')
 
 WebUI.click(findTestObject('Object Repository/Page_Home page/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Home page Log in to the site/input_Username_username'), 'student1')
+WebUI.setText(findTestObject('Object Repository/Page_Home page Log in to the site/input_Username_username'), 'teacher1')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Home page Log in to the site/input_Password_password'), 'OFhcon1PzObx3ErJAwGfGA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Home page Log in to the site/input_Password_password'), '9ExR24d8uBTe5Y0Xu9Ji6w==')
 
 WebUI.click(findTestObject('Object Repository/Page_Home page Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_My courses'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_NN'))
 
-WebUI.click(findTestObject('Object Repository/Page_My courses/a_NH'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Profile'))
 
-WebUI.click(findTestObject('Object Repository/Page_My courses/a_Log out'))
+WebUI.click(findTestObject('Object Repository/Page_Nguyen Nga Public profile/a_Edit profile'))
+
+WebUI.click(findTestObject('Object Repository/Page_Group10 Edit profile/a_Preferences'))
+
+WebUI.click(findTestObject('Object Repository/Page_Preferences/a_Change password'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Change password/input_Current password_password'), '9ExR24d8uBTe5Y0Xu9Ji6w==')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Change password/input_New password_newpassword1'), 'OFhcon1PzObx3ErJAwGfGA==')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Change password/input_New password (again)_newpassword2'), 
+    'OFhcon1PzObx3ErJAwGfGA==')
+
+WebUI.click(findTestObject('Object Repository/Page_Change password/input_New password (again)_submitbutton'))
+
+WebUI.click(findTestObject('Object Repository/Page_Preferences/a_NN'))
+
+WebUI.click(findTestObject('Object Repository/Page_Preferences/a_Log out'))
 
 WebUI.closeBrowser()
 
