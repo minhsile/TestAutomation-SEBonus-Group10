@@ -6,12 +6,12 @@
    <elementGuidId>93069fec-4634-4c46-a3da-ecf32517d25e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#password</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='password']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#password</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -84,7 +84,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641913366105_25']/input</value>
+      <value>//div[@id='yui_3_17_2_1_1641983054594_25']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,12 +92,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641911027146_25']/input</value>
    </webElementXpaths>
 </WebElementEntity>

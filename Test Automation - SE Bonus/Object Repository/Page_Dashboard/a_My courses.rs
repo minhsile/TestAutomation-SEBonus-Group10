@@ -6,12 +6,12 @@
    <elementGuidId>58452104-65b3-4d81-98e0-714d4bf2a965</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'My courses')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -65,14 +65,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;moremenu-61dd8f8e1ad20-navbar-nav&quot;)/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
+      <value>id(&quot;moremenu-61deac5a9feea-navbar-nav&quot;)/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='moremenu-61dd8f8e1ad20-navbar-nav']/li[3]/a</value>
+      <value>//ul[@id='moremenu-61deac5a9feea-navbar-nav']/li[3]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,14 +100,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Site administration'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[1]/preceding::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You have no notifications'])[1]/preceding::a[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

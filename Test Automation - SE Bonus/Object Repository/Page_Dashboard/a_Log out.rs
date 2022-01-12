@@ -6,12 +6,12 @@
    <elementGuidId>33a8e736-4904-48fe-84fc-4dcb425eddfc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='carousel-item-main']/a[6]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://localhost/login/logout.php?sesskey=tv7joDzprj</value>
+      <value>http://localhost/login/logout.php?sesskey=9FWNjaN1HV</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://localhost/login/logout.php?sesskey=tv7joDzprj']</value>
+      <value>//a[@href='http://localhost/login/logout.php?sesskey=9FWNjaN1HV']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,12 +123,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[6]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[@href='http://localhost/login/logout.php?sesskey=KJCe6ciuDO']</value>
    </webElementXpaths>
 </WebElementEntity>
