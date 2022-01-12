@@ -6,12 +6,12 @@
    <elementGuidId>6e58550c-1db7-4957-b116-09be3e63b14c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='course-info-container-2-3']/div/div/a/span[3]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.multiline</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='course-info-container-2-2']/div/div/a/span[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -44,14 +44,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;course-info-container-2-3&quot;)/div[@class=&quot;d-flex align-items-start&quot;]/div[@class=&quot;w-100 text-truncate&quot;]/a[@class=&quot;aalink coursename mr-2&quot;]/span[@class=&quot;multiline&quot;]</value>
+      <value>id(&quot;course-info-container-2-2&quot;)/div[@class=&quot;d-flex align-items-start&quot;]/div[@class=&quot;w-100 text-truncate&quot;]/a[@class=&quot;aalink coursename mr-2&quot;]/span[@class=&quot;multiline&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='course-info-container-2-3']/div/div/a/span[3]</value>
+      <value>//div[@id='course-info-container-2-2']/div/div/a/span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,5 +94,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='course-info-container-2-3']/div/div/a/span[3]</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>3a1024f5-76c6-467a-ac54-633e49f45adb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='id_onlinetext_editoreditable']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#id_onlinetext_editoreditable</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='id_onlinetext_editoreditable']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>aria-labelledby</name>
       <type>Main</type>
-      <value>yui_3_17_2_1_1641977468052_56</value>
+      <value>yui_3_17_2_1_1641996424013_54</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641977468052_513']/div</value>
+      <value>//div[@id='yui_3_17_2_1_1641996424013_551']/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,14 +119,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ádjfks'])[1]/preceding::div[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='File submissions'])[2]/preceding::div[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact site support'])[1]/preceding::div[14]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

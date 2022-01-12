@@ -6,12 +6,12 @@
    <elementGuidId>58452104-65b3-4d81-98e0-714d4bf2a965</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'My courses')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'My courses')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -66,9 +66,13 @@
       <name>xpath</name>
       <type>Main</type>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <value>id(&quot;moremenu-61deac5a9feea-navbar-nav&quot;)/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
 =======
       <value>id(&quot;moremenu-61de9b9a1b25b-navbar-nav&quot;)/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
+>>>>>>> Stashed changes
+=======
+      <value>id(&quot;moremenu-61dee1ee1be11-navbar-nav&quot;)/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
 >>>>>>> Stashed changes
    </webElementProperties>
    <webElementXpaths>
@@ -77,9 +81,13 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <value>//ul[@id='moremenu-61deac5a9feea-navbar-nav']/li[3]/a</value>
 =======
       <value>//ul[@id='moremenu-61de9b9a1b25b-navbar-nav']/li[3]/a</value>
+>>>>>>> Stashed changes
+=======
+      <value>//ul[@id='moremenu-61dee1ee1be11-navbar-nav']/li[3]/a</value>
 >>>>>>> Stashed changes
    </webElementXpaths>
    <webElementXpaths>
@@ -143,6 +151,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
+<<<<<<< Updated upstream
       <value>//ul[@id='moremenu-61de9a5eafa0b-navbar-nav']/li[3]/a</value>
    </webElementXpaths>
    <webElementXpaths>
@@ -165,5 +174,8 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[1]/preceding::a[3]</value>
+=======
+      <value>//ul[@id='moremenu-61dee07a83344-navbar-nav']/li[3]/a</value>
+>>>>>>> Stashed changes
    </webElementXpaths>
 </WebElementEntity>

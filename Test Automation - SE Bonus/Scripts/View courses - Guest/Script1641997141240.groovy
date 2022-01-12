@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://localhost/')
+
+WebUI.setText(findTestObject('Object Repository/Page_Home page/input_Search courses_q'), 'Test automation')
+
+WebUI.click(findTestObject('Page_Home page  Search results/Page_Home page/button_Search courses'))
+
+WebUI.click(findTestObject('Object Repository/Page_Home page Log in to the site/button_Log in as a guest'))
+
+WebUI.click(findTestObject('Object Repository/Page_TA/a_Test Automation'))
+
+WebUI.click(findTestObject('Object Repository/Page_TA/button_Continue'))
+
+WebUI.closeBrowser()
+

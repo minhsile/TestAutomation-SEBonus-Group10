@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Log in</name>
+   <name>button_Log in (11)</name>
    <tag></tag>
-   <elementGuidId>f5759b1d-fe4f-4684-b0ff-529fda123968</elementGuidId>
+   <elementGuidId>aa4cbc86-5776-4bae-877f-1a1cae8746e5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
