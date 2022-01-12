@@ -86,12 +86,16 @@
       <type>Main</type>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <value>//div[@id='yui_3_17_2_1_1641983054594_25']/input</value>
 =======
       <value>//div[@id='yui_3_17_2_1_1641983943024_25']/input</value>
 >>>>>>> Stashed changes
 =======
       <value>//div[@id='yui_3_17_2_1_1641996771542_25']/input</value>
+>>>>>>> Stashed changes
+=======
+      <value>//div[@id='yui_3_17_2_1_1641983054594_25']/input</value>
 >>>>>>> Stashed changes
    </webElementXpaths>
    <webElementXpaths>
@@ -101,6 +105,7 @@
       <type>Main</type>
       <value>//div[2]/input</value>
    </webElementXpaths>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 =======
@@ -167,5 +172,7 @@
 =======
       <value>//div[@id='yui_3_17_2_1_1641996400303_25']/input</value>
    </webElementXpaths>
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 </WebElementEntity>

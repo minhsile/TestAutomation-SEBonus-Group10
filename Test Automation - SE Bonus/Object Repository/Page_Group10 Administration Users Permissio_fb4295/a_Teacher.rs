@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Teacher</name>
    <tag></tag>
-   <elementGuidId>43a3decc-9b6f-49c9-81a3-b5dd0e8d72ee</elementGuidId>
+   <elementGuidId>aeceb585-8574-427a-9381-ec571eabb967</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -77,14 +77,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Non-editing teacher'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nguyen Nga'])[2]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tran Lam'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Non-editing teacher'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Continue</name>
    <tag></tag>
-   <elementGuidId>1ee5e48c-eb4b-402f-ab6b-de6ac31a451a</elementGuidId>
+   <elementGuidId>71fbd2b9-8515-48e4-98a5-b16950a8eb41</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#single_button61deaffa1550f6</value>
+         <value>#single_button61deedb08805f6</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='single_button61deaffa1550f6']</value>
+         <value>//button[@id='single_button61deedb08805f6']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>single_button61deaffa1550f6</value>
+      <value>single_button61deedb08805f6</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,14 +56,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;single_button61deaffa1550f6&quot;)</value>
+      <value>id(&quot;single_button61deedb08805f6&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='single_button61deaffa1550f6']</value>
+      <value>//button[@id='single_button61deedb08805f6']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,14 +77,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Group_10'])[2]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[4]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='s3@example.com'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='manual'])[4]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='single_button61dea783bb48d6']</value>
+      <value>//button[@id='single_button61dee4d09e54d6']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

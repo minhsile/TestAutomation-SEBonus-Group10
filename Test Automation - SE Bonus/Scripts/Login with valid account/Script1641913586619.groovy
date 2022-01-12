@@ -23,17 +23,15 @@ WebUI.navigateToUrl('http://localhost/')
 
 WebUI.click(findTestObject('Object Repository/Page_Home page/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Home page Log in to the site/input_Username_username'), 'student1')
+WebUI.setText(findTestObject('Object Repository/Page_Home page Log in to the site/input_Username_username'), 'manager1')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Home page Log in to the site/input_Password_password'), 'OFhcon1PzObx3ErJAwGfGA==')
 
 WebUI.click(findTestObject('Object Repository/Page_Home page Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_My courses'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_NV'))
 
-WebUI.click(findTestObject('Object Repository/Page_My courses/a_NH'))
-
-WebUI.click(findTestObject('Object Repository/Page_My courses/a_Log out'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Log out'))
 
 WebUI.closeBrowser()
 

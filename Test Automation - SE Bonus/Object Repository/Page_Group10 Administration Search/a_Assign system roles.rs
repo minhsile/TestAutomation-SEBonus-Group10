@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='linkusers']/div/div[3]/div[2]/ul/li[4]/a</value>
+         <value>//a[contains(text(),'Assign system roles')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

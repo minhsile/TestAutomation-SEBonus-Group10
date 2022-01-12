@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Browse list of users</name>
    <tag></tag>
-   <elementGuidId>f11560a8-9397-48a2-8ade-970d8a6a0ba1</elementGuidId>
+   <elementGuidId>03f7e1ae-8532-46a6-840b-600251f3a8c7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Browse list of users')]</value>
+         <value>//div[@id='linkusers']/div/div[2]/div[2]/ul/li/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

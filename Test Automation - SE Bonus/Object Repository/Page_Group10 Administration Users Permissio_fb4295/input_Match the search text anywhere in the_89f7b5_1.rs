@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_File_userfilechoose</name>
+   <name>input_Match the search text anywhere in the_89f7b5_1</name>
    <tag></tag>
-   <elementGuidId>e2612f94-d690-4a68-8179-a308ab32664c</elementGuidId>
+   <elementGuidId>279e2e4a-d1de-4937-a279-5a73fb48690f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#filepicker-button-61dee1fe40315</value>
+         <value>#add</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//fieldset/div[2]/div/input</value>
+         <value>//input[@id='add']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,71 +26,71 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>name</name>
       <type>Main</type>
-      <value>button</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-secondary fp-btn-choose</value>
+      <value>add</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>filepicker-button-61dee1fe40315</value>
+      <value>add</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Choose a file...</value>
+      <value>◄ Add</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>title</name>
       <type>Main</type>
-      <value>userfilechoose</value>
+      <value>Add</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-initial-value</name>
+      <name>class</name>
       <type>Main</type>
-      <value>Choose a file...</value>
+      <value>btn btn-secondary</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;filepicker-button-61dee1fe40315&quot;)</value>
+      <value>id(&quot;add&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='filepicker-button-61dee1fe40315']</value>
+      <value>//input[@id='add']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='filepicker-wrapper-61dee1fe40315']/div/input</value>
+      <value>//div[@id='addcontrols']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//fieldset/div[2]/div/input</value>
+      <value>//td[2]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

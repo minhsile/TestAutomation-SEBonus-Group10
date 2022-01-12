@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Upload users</name>
    <tag></tag>
-   <elementGuidId>73353ad0-0e02-47a4-a55e-dacdc17c7b62</elementGuidId>
+   <elementGuidId>812deac5-1d27-41e4-936d-4bb54b2be715</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Upload users')]</value>
+         <value>//div[@id='linkusers']/div/div[2]/div[2]/ul/li[8]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
