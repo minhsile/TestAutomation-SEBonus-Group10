@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Object Repository/Page_Home page/a_Log in'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Home page Log in to the site/input_Username_username'), 'student')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Home page Log in to the site/input_Password_password'), 'OFhcon1PzObx3ErJAwGfGA==')
+WebUI.setEncryptedText(findTestObject('Page_Home page Log in to the site/input_Password_password (1)'), 'OFhcon1PzObx3ErJAwGfGA==')
 
 WebUI.click(findTestObject('Object Repository/Page_Home page Log in to the site/button_Log in'))
 
