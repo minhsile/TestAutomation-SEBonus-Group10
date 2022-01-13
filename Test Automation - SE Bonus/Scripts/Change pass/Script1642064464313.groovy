@@ -62,7 +62,7 @@ WebUI.setText(findTestObject('Object Repository/changepass/Page_Home page Log in
     'student1')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/changepass/Page_Home page Log in to the site/input_Password_password'), 
-    '9ExR24d8uBTe5Y0Xu9Ji6w==')
+    'OFhcon1PzObx3ErJAwGfGA==')
 
 WebUI.click(findTestObject('Object Repository/changepass/Page_Home page Log in to the site/button_Log in'))
 

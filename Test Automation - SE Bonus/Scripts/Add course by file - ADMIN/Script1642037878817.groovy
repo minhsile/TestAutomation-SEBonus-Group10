@@ -38,7 +38,7 @@ WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Search
 WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Courses Upload courses/input_File_coursefilechoose'))
 
 WebUI.uploadFile(findTestObject('Object Repository/Page_Group10 Administration Courses Upload courses/input_Attachment_repo_upload_file'), 
-    'D:\\KHTN\\1st Sem - Year 3\\NMCNPM\\BonusAssignment\\Katalon\\TestAutomation-SEBonus-Group10\\course.csv')
+    'D:\\TestAutomation-SEBonus-Group10\\course.csv')
 
 WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Courses Upload courses/button_Upload this file'))
 

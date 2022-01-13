@@ -6,12 +6,12 @@
    <elementGuidId>60dae921-7c1e-475f-8111-0f62802c9b85</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='region-main']/div/div[2]/form/button</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#single_button61df13e04678f6</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Continue']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

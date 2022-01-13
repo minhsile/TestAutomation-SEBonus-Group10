@@ -44,6 +44,8 @@ WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users 
 
 WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Accounts _c9beb9/input_Preview rows_submitbutton'))
 
+WebUI.click(findTestObject('Page_Group10 Administration Users Accounts Upload users/input_Department_submitbutton'))
+
 WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Accounts _c9beb9/a_Site administration'))
 
 WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Search/a_Users'))

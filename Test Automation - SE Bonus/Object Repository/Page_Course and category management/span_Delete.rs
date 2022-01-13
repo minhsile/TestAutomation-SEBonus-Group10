@@ -6,12 +6,12 @@
    <elementGuidId>4b516812-9bd4-4fce-93d6-f32b5febb2ce</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@id='actionmenuaction-23']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#actionmenuaction-23</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[2]/div/div[2]/div/div/div[5]/div/div/a[3]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
