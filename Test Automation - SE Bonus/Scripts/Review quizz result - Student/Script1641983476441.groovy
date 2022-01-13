@@ -21,28 +21,28 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost/')
 
-WebUI.click(findTestObject('Object Repository/Page_Home page/a_Log in (4)'))
+WebUI.click(findTestObject('Page_Home page/a_Log in'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Home page Log in to the site/input_Username_username (4)'), 'student1')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Home page Log in to the site/input_Password_password (4)'), 
     'OFhcon1PzObx3ErJAwGfGA==')
 
-WebUI.click(findTestObject('Object Repository/Page_Home page Log in to the site/button_Log in (4)'))
+WebUI.click(findTestObject('Page_Home page Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_My courses (2)'))
+WebUI.click(findTestObject('Page_Dashboard/a_My courses (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_My courses/span_Test Automation (1)'))
+WebUI.click(findTestObject('Page_My courses/span_Test Automation'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Test Automation/a_Quiz1 (1)'))
+WebUI.click(findTestObject('Page_Course Test Automation/a_Quiz1'))
 
 WebUI.click(findTestObject('Object Repository/Page_TA Quiz1/a_Review'))
 
-WebUI.click(findTestObject('Object Repository/Page_Quiz1 Attempt review/a_Finish review (1)'))
+WebUI.click(findTestObject('Page_Quiz1 Attempt review/a_Finish review'))
 
-WebUI.click(findTestObject('Object Repository/Page_TA Quiz1/a_NH (1)'))
+WebUI.click(findTestObject('Page_TA Quiz1/a_NH'))
 
-WebUI.click(findTestObject('Object Repository/Page_TA Quiz1/a_Log out (1)'))
+WebUI.click(findTestObject('Page_TA Quiz1/a_Log out'))
 
 WebUI.closeBrowser()
 

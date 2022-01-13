@@ -21,20 +21,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost/')
 
-WebUI.click(findTestObject('Object Repository/Page_Home page/a_Log in (7)'))
+WebUI.click(findTestObject('Page_Home page/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Home page Log in to the site/input_Username_username (7)'), 'student1')
+WebUI.setText(findTestObject('Page_Home page Log in to the site/input_Username_username'), 'student1')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Home page Log in to the site/input_Password_password (7)'), 
-    'OFhcon1PzObx3ErJAwGfGA==')
+WebUI.setEncryptedText(findTestObject('Page_Home page Log in to the site/input_Username_username'), 'OFhcon1PzObx3ErJAwGfGA==')
 
-WebUI.click(findTestObject('Object Repository/Page_Home page Log in to the site/button_Log in (7)'))
+WebUI.click(findTestObject('Page_Home page Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_My courses (3)'))
+WebUI.click(findTestObject('Page_Dashboard/a_My courses (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_My courses/span_Test Automation (2)'))
+WebUI.click(findTestObject('Page_My courses/span_Test Automation'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Test Automation/a_Homework 1  Assignment (1)'))
+WebUI.click(findTestObject('Page_Course Test Automation/a_Homework 1  Assignment'))
 
 WebUI.click(findTestObject('Object Repository/Page_TA Homework 1/button_Edit submission_1_2'))
 
@@ -42,17 +41,17 @@ WebUI.click(findTestObject('Object Repository/Page_TA Homework 1 - Edit submissi
 
 WebUI.click(findTestObject('Object Repository/Page_TA Homework 1 - Edit submission/div_Rich text editorTest homework1Test home_1e7171'))
 
-WebUI.setText(findTestObject('Object Repository/Page_TA Homework 1 - Edit submission/div_Test homework1 (1)'), 'Test homework1 Test homework1 Test homework1 Test homework1')
+WebUI.setText(findTestObject('Page_TA Homework 1 - Edit submission/div_Test homework1'), 'Test homework1 Test homework1 Test homework1 Test homework1')
 
 WebUI.click(findTestObject('Object Repository/Page_TA Homework 1 - Edit submission/input_Test homework1_submitbutton'))
 
-WebUI.setText(findTestObject('Object Repository/Page_TA Homework 1 - Edit submission/div_Test homework1 (1)'), 'Test homework1')
+WebUI.setText(findTestObject('Page_TA Homework 1 - Edit submission/div_Test homework1'), 'Test homework1')
 
 WebUI.click(findTestObject('Object Repository/Page_TA Homework 1 - Edit submission/input_Test homework1_submitbutton'))
 
-WebUI.click(findTestObject('Object Repository/Page_TA Homework 1/a_NH (2)'))
+WebUI.click(findTestObject('Page_TA Homework 1/a_NH'))
 
-WebUI.click(findTestObject('Object Repository/Page_TA Homework 1/a_Log out (2)'))
+WebUI.click(findTestObject('Page_TA Homework 1/a_Log out'))
 
 WebUI.closeBrowser()
 
