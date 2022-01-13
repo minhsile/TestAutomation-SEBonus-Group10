@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Page_Home page/a_Log in'))
 
 WebUI.setText(findTestObject('Page_Home page Log in to the site/input_Username_username'), 'student1')
 
-WebUI.setEncryptedText(findTestObject('Page_Home page Log in to the site/input_Username_username'), 'OFhcon1PzObx3ErJAwGfGA==')
+WebUI.setEncryptedText(findTestObject('Page_Home page Log in to the site/input_Password_password (1)'), 'OFhcon1PzObx3ErJAwGfGA==')
 
 WebUI.click(findTestObject('Page_Home page Log in to the site/button_Log in'))
 

@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Object Repository/Page_Home page/a_Log in'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Home page Log in to the site/input_Username_username'), 'student1')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Home page Log in to the site/input_Password_password'), 'OFhcon1PzObx3ErJAwGfGA==')
+WebUI.setEncryptedText(findTestObject('Page_Home page Log in to the site/input_Password_password (1)'), 'OFhcon1PzObx3ErJAwGfGA==')
 
 WebUI.click(findTestObject('Object Repository/Page_Home page Log in to the site/button_Log in'))
 
@@ -43,13 +43,13 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/i__icon fa fa-paper
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_NH'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Log out_1'))
+WebUI.click(findTestObject('Page_Dashboard/a_Log out'))
 
 WebUI.click(findTestObject('Object Repository/Page_Home page/a_Log in'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Home page Log in to the site/input_Username_username'), 'coursecreator1')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Home page Log in to the site/input_Password_password'), 'OFhcon1PzObx3ErJAwGfGA==')
+WebUI.setEncryptedText(findTestObject('Page_Home page Log in to the site/input_Password_password (1)'), 'OFhcon1PzObx3ErJAwGfGA==')
 
 WebUI.click(findTestObject('Object Repository/Page_Home page Log in to the site/button_Log in'))
 
@@ -63,7 +63,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/i__icon fa fa-paper
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_NN'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Log out_1_2_3'))
+WebUI.click(findTestObject('Page_Dashboard/a_Log out'))
 
 WebUI.closeBrowser()
 

@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Password_password (1)</name>
    <tag></tag>
-   <elementGuidId>6667a15e-e9d1-4a65-a254-158f68e600d5</elementGuidId>
+   <elementGuidId>e981d64a-be48-46df-acaa-d1851e549e27</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='password']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#password</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='password']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -84,7 +84,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641977413279_25']/input</value>
+      <value>//form[@id='login']/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
