@@ -131,4 +131,64 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Edit role - ADMIN</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>a8abf503-1d33-4d8d-b6a9-28be7873f1d8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Add a new role - ADMIN</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>99229b88-35de-44ed-9419-06fc2ce3af3d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Add a discussion topic - ADMIN</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9753035e-5af8-406a-a771-6985b7f5da06</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Subscribe to forum - ADMIN</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>700c5d11-0146-4ba6-8a92-623cd3f56808</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Enroll teacher into course</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6dea43a4-f557-4ced-bc77-206592d5620e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Edit Mode Home - ADMIN</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>abda3f33-e71f-4a2d-9bb6-2be4b04a4bdc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Edit Mode on Dashboard - ADMIN</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1b8cd41d-e166-4007-b40b-b5ac8536c242</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Make an announcement</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>29785be8-9ef1-4623-bbbe-29fea9ad411e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Add assignment to course</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4992ebeb-e05f-40bd-91f7-be04019edf5c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Edit assignment</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1540a183-97de-45f4-a1c8-c8575a15f1e8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/View the result of all students in the quiz</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

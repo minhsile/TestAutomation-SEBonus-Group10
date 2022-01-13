@@ -1,0 +1,30 @@
+{"testCaseName":"Test Cases/Create Manager","testCaseId":"Test Cases/Create Manager"}
+{"testCaseName":"Test Cases/Create Course creator","testCaseId":"Test Cases/Create Course creator"}
+{"testCaseName":"Test Cases/Create Teacher","testCaseId":"Test Cases/Create Teacher"}
+{"testCaseName":"Test Cases/Create noneditingteacher","testCaseId":"Test Cases/Create noneditingteacher"}
+{"testCaseName":"Test Cases/Create Student","testCaseId":"Test Cases/Create Student"}
+{"testCaseName":"Test Cases/Create student by upload file","testCaseId":"Test Cases/Create student by upload file"}
+{"testCaseName":"Test Cases/Create teacher by upload file","testCaseId":"Test Cases/Create teacher by upload file"}
+{"testCaseName":"Test Cases/Create manager by upload file","testCaseId":"Test Cases/Create manager by upload file"}
+{"testCaseName":"Test Cases/Change pass","testCaseId":"Test Cases/Change pass"}
+{"testCaseName":"Test Cases/Login with incorrect username","testCaseId":"Test Cases/Login with incorrect username"}
+{"testCaseName":"Test Cases/Login with incorrect password","testCaseId":"Test Cases/Login with incorrect password"}
+{"testCaseName":"Test Cases/Login with valid account","testCaseId":"Test Cases/Login with valid account"}
+{"testCaseName":"Test Cases/Edit Profile","testCaseId":"Test Cases/Edit Profile"}
+{"testCaseName":"Test Cases/Search Course","testCaseId":"Test Cases/Search Course"}
+{"testCaseName":"Test Cases/Add a category - ADMIN","testCaseId":"Test Cases/Add a category - ADMIN"}
+{"testCaseName":"Test Cases/Add a new course - ADMIN","testCaseId":"Test Cases/Add a new course - ADMIN"}
+{"testCaseName":"Test Cases/Add course by file - ADMIN","testCaseId":"Test Cases/Add course by file - ADMIN"}
+{"testCaseName":"Test Cases/Edit course - ADMIN","testCaseId":"Test Cases/Edit course - ADMIN"}
+{"testCaseName":"Test Cases/Delete a course - ADMIN","testCaseId":"Test Cases/Delete a course - ADMIN"}
+{"testCaseName":"Test Cases/Edit role - ADMIN","testCaseId":"Test Cases/Edit role - ADMIN"}
+{"testCaseName":"Test Cases/Add a new role - ADMIN","testCaseId":"Test Cases/Add a new role - ADMIN"}
+{"testCaseName":"Test Cases/Add a discussion topic - ADMIN","testCaseId":"Test Cases/Add a discussion topic - ADMIN"}
+{"testCaseName":"Test Cases/Subscribe to forum - ADMIN","testCaseId":"Test Cases/Subscribe to forum - ADMIN"}
+{"testCaseName":"Test Cases/Enroll teacher into course","testCaseId":"Test Cases/Enroll teacher into course"}
+{"testCaseName":"Test Cases/Edit Mode Home - ADMIN","testCaseId":"Test Cases/Edit Mode Home - ADMIN"}
+{"testCaseName":"Test Cases/Edit Mode on Dashboard - ADMIN","testCaseId":"Test Cases/Edit Mode on Dashboard - ADMIN"}
+{"testCaseName":"Test Cases/Make an announcement","testCaseId":"Test Cases/Make an announcement"}
+{"testCaseName":"Test Cases/Add assignment to course","testCaseId":"Test Cases/Add assignment to course"}
+{"testCaseName":"Test Cases/Edit assignment","testCaseId":"Test Cases/Edit assignment"}
+{"testCaseName":"Test Cases/View the result of all students in the quiz","testCaseId":"Test Cases/View the result of all students in the quiz"}
