@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon URL</name>
+   <tag></tag>
+   <elementGuidId>0d82d561-6f7d-458d-acc8-f080e4d79076</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.optionicon.mt-2.mb-1.mx-auto.icon-no-margin.modicon_url.activityiconcontainer.content > img.icon.icon.activityicon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[21]/div/a/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon icon activityicon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>http://localhost/theme/image.php/boost/url/1641889893/icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;yui_3_17_2_1_1642051630026_518&quot;)/div[@class=&quot;option border-0 card m-1 bg-white&quot;]/div[@class=&quot;optioninfo card-body d-flex flex-column text-center p-1&quot;]/a[@class=&quot;d-flex flex-column justify-content-between flex-fill&quot;]/div[@class=&quot;optionicon mt-2 mb-1 mx-auto icon-no-margin modicon_url activityiconcontainer content&quot;]/img[@class=&quot;icon icon activityicon&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1642051630026_518']/div[21]/div/a/div/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'http://localhost/theme/image.php/boost/url/1641889893/icon')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[21]/div/a/div/img</value>
+   </webElementXpaths>
+</WebElementEntity>

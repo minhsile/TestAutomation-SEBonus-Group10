@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Enroll in a course with incorrect key</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a96bdcae-8b0b-424d-a046-f5dd6d28c54a</testCaseGuid>
+</TestCaseEntity>
