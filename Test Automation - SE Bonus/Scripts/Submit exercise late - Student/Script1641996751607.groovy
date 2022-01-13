@@ -25,11 +25,11 @@ WebUI.click(findTestObject('Object Repository/Page_Home page/a_Log in'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Home page Log in to the site/input_Username_username'), 'student1')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Home page Log in to the site/input_Password_password'), 'OFhcon1PzObx3ErJAwGfGA==')
+WebUI.setEncryptedText(findTestObject('Page_Home page Log in to the site/input_Password_password (1)'), 'OFhcon1PzObx3ErJAwGfGA==')
 
 WebUI.click(findTestObject('Object Repository/Page_Home page Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_My courses'))
+WebUI.click(findTestObject('Page_Group10 Administration Users Accounts _9567d5/a_My courses'))
 
 WebUI.click(findTestObject('Object Repository/Page_My courses/span_Test Automation'))
 

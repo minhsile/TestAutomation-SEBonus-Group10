@@ -6,12 +6,12 @@
    <elementGuidId>c9b0ac5e-6112-4426-b332-5d51105adc4d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='region-main']/div/div/table/tbody/tr/td/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>td.cell.c0.lastcol > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Test Automation')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

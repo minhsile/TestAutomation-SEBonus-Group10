@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='moremenu-61deedb8a406f-navbar-nav']/li[3]/a</value>
+         <value>//a[contains(text(),'My courses')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

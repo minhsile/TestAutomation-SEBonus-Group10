@@ -29,7 +29,7 @@ WebUI.setEncryptedText(findTestObject('Page_Home page Log in to the site/input_P
 
 WebUI.click(findTestObject('Object Repository/Page_Home page Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_My courses'))
+WebUI.click(findTestObject('Page_Group10 Administration Users Accounts _9567d5/a_My courses'))
 
 WebUI.click(findTestObject('Object Repository/Page_My courses/span_Test Automation'))
 

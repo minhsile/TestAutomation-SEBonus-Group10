@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost/')
 
-WebUI.setText(findTestObject('Object Repository/Page_Home page/input_Search courses_q'), 'Test automation')
+WebUI.setText(findTestObject('Page_Group10 Administration Users Permissio_fb4295/Page_Home page/input_search_course'), 'Test automation')
 
-WebUI.click(findTestObject('Page_Home page  Search results/Page_Home page/button_Search courses'))
+WebUI.click(findTestObject('Page_Group10 Administration Users Permissio_fb4295/Page_Home page/button_Search courses'))
 
 WebUI.click(findTestObject('Object Repository/Page_Home page Log in to the site/button_Log in as a guest'))
 

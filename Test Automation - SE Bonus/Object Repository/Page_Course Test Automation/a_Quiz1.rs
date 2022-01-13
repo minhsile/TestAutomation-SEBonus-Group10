@@ -6,12 +6,11 @@
    <elementGuidId>cfd030e0-7ce5-4274-8a9e-d3c28b3c5a62</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[@onclick=''])[4]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//li[@id='module-5']/div/div/div/div/div/div[2]/div[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
