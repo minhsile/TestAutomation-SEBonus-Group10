@@ -39,23 +39,17 @@ WebUI.click(findTestObject('Page_Course Test Automation/Add lesson note/button_A
 
 WebUI.click(findTestObject('Page_Course Test Automation/Add lesson note/icon file'))
 
-WebUI.setText(findTestObject('Page_Course Test Automation/Add lesson note/input_Name_name'), 'Lesson note - Week 02')
+WebUI.setText(findTestObject('Page_Course Test Automation/Add lesson note/input_Name_name'), 'Lesson note - Week 01')
 
 WebUI.click(findTestObject('Page_Course Test Automation/Add lesson note/Select file in general'))
 
 WebUI.click(findTestObject('Page_Course Test Automation/Add lesson note/select upload file method'))
 
-WebUI.uploadFile(findTestObject('Page_Course Test Automation/Add lesson note/choose file upload'), 'C:\\Users\\IBM\\Desktop\\Note-Week01.docx')
+WebUI.uploadFile(findTestObject('Page_Course Test Automation/Add lesson note/choose file upload'), 'D:\\Katalon\\Note-Week01.docx')
 
 WebUI.click(findTestObject('Page_Course Test Automation/Add lesson note/button_Upload this file'))
 
 WebUI.click(findTestObject('Page_Course Test Automation/Add lesson note/submitbutton'))
-
-WebUI.click(findTestObject('Page_Course Test Automation/Edit lesson note/i_Mark as done_icon fa fa-ellipsis-v fa-fw'))
-
-WebUI.click(findTestObject('Page_Course Test Automation/Edit lesson note/span_Delete'))
-
-WebUI.click(findTestObject('Page_Course Test Automation/Edit lesson note/button_Yes'))
 
 WebUI.click(findTestObject('Page_Dashboard/a_NH'))
 
