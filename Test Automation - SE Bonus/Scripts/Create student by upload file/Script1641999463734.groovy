@@ -52,17 +52,13 @@ WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Search
 
 WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Permissio_fb4295/a_Student_1'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Group10 Administration Users Permissio_fb4295/select_Nguyen Kim Thi To Nga (19127219stude_83826c'), 
-    '20', true)
+WebUI.click(findTestObject('Page_Group10 Administration Users Permissions Assign system roles/option_Le Minh Si (19127064student.hcmus.edu.vn)'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Group10 Administration Users Permissio_fb4295/select_Nguyen Kim Thi To Nga (19127219stude_83826c'), 
-    '21', true)
+WebUI.click(findTestObject('Page_Group10 Administration Users Permissions Assign system roles/option_Nguyen Kim Thi To Nga (19127219student.hcmus.edu.vn)'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Group10 Administration Users Permissio_fb4295/select_Nguyen Kim Thi To Nga (19127219stude_83826c'), 
-    '19', true)
+WebUI.click(findTestObject('Page_Group10 Administration Users Permissions Assign system roles/option_Nguyen Phuong Vy (19127088student.hcmus.edu.vn)'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Group10 Administration Users Permissio_fb4295/select_Nguyen Kim Thi To Nga (19127219stude_83826c'), 
-    '18', true)
+WebUI.click(findTestObject('Page_Group10 Administration Users Permissions Assign system roles/option_Tran Ngoc Lam (19127040student.hcmus.edu.vn)'))
 
 WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Permissio_fb4295/input_Match the search text anywhere in the_89f7b5_1'))
 

@@ -56,6 +56,18 @@ WebUI.setText(findTestObject('Object Repository/Page_Group10 Administration User
 
 WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Accounts _5007a8/input_Address_submitbutton'))
 
+WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Permissio_4e74a7/a_Site administration'))
+
+WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Search/a_Users'))
+
+WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Search/a_Assign system roles'))
+
+WebUI.click(findTestObject('Page_Group10 Administration Users Permissions Assign system roles/a_Teacher'))
+
+WebUI.click(findTestObject('Page_Group10 Administration Users Permissions Assign system roles/option_Nguyen Nga (teacher1email.com)'))
+
+WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Permissio_fb4295/input_Match the search text anywhere in the_89f7b5'))
+
 WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Accounts _9567d5/span_AU'))
 
 WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Accounts _9567d5/a_Log out'))

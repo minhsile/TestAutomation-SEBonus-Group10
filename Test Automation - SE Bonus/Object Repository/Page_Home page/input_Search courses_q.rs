@@ -3,27 +3,15 @@
    <description></description>
    <name>input_Search courses_q</name>
    <tag></tag>
-<<<<<<< Updated upstream
-   <elementGuidId>06b67f95-bfa1-4116-9596-eadcc476735d</elementGuidId>
+   <elementGuidId>d0eae2a0-3274-4c56-96f4-6a1a675c9f25</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#searchinput-61dea30e4119b61dea30e32da15</value>
+         <value>#searchinput-61dfe80807fec61dfe807e736a5</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='region-main']/div/div/div/form/div/input</value>
-=======
-   <elementGuidId>a671ebc4-e99b-4b19-8935-edb4c7ea0944</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#searchinput-61dee35cbd4b861dee35cb52f62</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='searchinput-61dee35cbd4b861dee35cb52f62']</value>
->>>>>>> Stashed changes
+         <value>//input[@id='searchinput-61dfe80807fec61dfe807e736a5']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -47,11 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-<<<<<<< Updated upstream
-      <value>searchinput-61dea30e4119b61dea30e32da15</value>
-=======
-      <value>searchinput-61dee35cbd4b861dee35cb52f62</value>
->>>>>>> Stashed changes
+      <value>searchinput-61dfe80807fec61dfe807e736a5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,22 +84,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-<<<<<<< Updated upstream
-      <value>id(&quot;searchinput-61dea30e4119b61dea30e32da15&quot;)</value>
-=======
-      <value>id(&quot;searchinput-61dee35cbd4b861dee35cb52f62&quot;)</value>
->>>>>>> Stashed changes
+      <value>id(&quot;searchinput-61dfe80807fec61dfe807e736a5&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-<<<<<<< Updated upstream
-      <value>//input[@id='searchinput-61dea30e4119b61dea30e32da15']</value>
-=======
-      <value>//input[@id='searchinput-61dee35cbd4b861dee35cb52f62']</value>
->>>>>>> Stashed changes
+      <value>//input[@id='searchinput-61dfe80807fec61dfe807e736a5']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,5 +106,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='searchinput-61dfe766e130361dfe766ce7ed5']</value>
    </webElementXpaths>
 </WebElementEntity>

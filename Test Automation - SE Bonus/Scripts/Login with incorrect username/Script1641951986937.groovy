@@ -29,5 +29,7 @@ WebUI.setEncryptedText(findTestObject('Page_Home page Log in to the site/input_P
 
 WebUI.click(findTestObject('Object Repository/Page_Home page Log in to the site/button_Log in'))
 
+WebUI.verifyElementNotVisibleInViewport(findTestObject('Object Repository/Page_Dashboard/a_Site administration'), 0)
+
 WebUI.closeBrowser()
 

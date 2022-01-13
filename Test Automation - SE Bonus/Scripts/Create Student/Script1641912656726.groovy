@@ -41,7 +41,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Group10 Administration User
 WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Accounts _5007a8/em_Click to enter text'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Group10 Administration Users Accounts _5007a8/input_New password_newpassword'), 
-    'OFhcon1PzObx3ErJAwGfGA==')
+    '9ExR24d8uBTe5Y0Xu9Ji6w==')
 
 WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Accounts _5007a8/i_Click to enter text_icon fa fa-eye fa-fw'))
 
@@ -58,13 +58,27 @@ WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users 
 
 WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Accounts _9567d5/span_AU'))
 
+WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Permissio_4e74a7/a_Site administration'))
+
+WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Search/a_Users'))
+
+WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Search/a_Assign system roles'))
+
+WebUI.click(findTestObject('Page_Group10 Administration Users Permissions Assign system roles/a_Student'))
+
+WebUI.click(findTestObject('Page_Group10 Administration Users Permissions Assign system roles/option_Nguyen Hoa (student1email.com)'))
+
+WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Permissio_fb4295/input_Match the search text anywhere in the_89f7b5'))
+
+WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Accounts _9567d5/span_AU'))
+
 WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Accounts _9567d5/a_Log out'))
 
 WebUI.click(findTestObject('Object Repository/Page_Home page/span_Log in'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Home page Log in to the site/input_Username_username'), 'student1')
 
-WebUI.setEncryptedText(findTestObject('Page_Home page Log in to the site/input_Password_password (1)'), 'OFhcon1PzObx3ErJAwGfGA==')
+WebUI.setEncryptedText(findTestObject('Page_Home page Log in to the site/input_Password_password (1)'), '9ExR24d8uBTe5Y0Xu9Ji6w==')
 
 WebUI.click(findTestObject('Object Repository/Page_Home page Log in to the site/button_Log in'))
 

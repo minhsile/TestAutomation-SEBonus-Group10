@@ -10,6 +10,28 @@
          <value>#addselect</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'addselect[]' and @id = 'addselect' and (text() = '
+  
+    Nguyen Hoa (student1@email.com)
+    Tran Lam (noneditingteacher1@email.com)
+    Nguyen Nga (coursecreator1@email.com)
+    Nguyen Nga (teacher1@email.com)
+    Admin User (hungtiensi.lms1@gmail.com)
+    Nguyen Vy (manager1@email.com)
+  
+' or . = '
+  
+    Nguyen Hoa (student1@email.com)
+    Tran Lam (noneditingteacher1@email.com)
+    Nguyen Nga (coursecreator1@email.com)
+    Nguyen Nga (teacher1@email.com)
+    Admin User (hungtiensi.lms1@gmail.com)
+    Nguyen Vy (manager1@email.com)
+  
+')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//select[@id='addselect']</value>
       </entry>

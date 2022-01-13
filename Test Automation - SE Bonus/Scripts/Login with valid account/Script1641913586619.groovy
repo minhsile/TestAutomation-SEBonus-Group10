@@ -23,7 +23,7 @@ WebUI.navigateToUrl('http://localhost/')
 
 WebUI.click(findTestObject('Object Repository/Page_Home page/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Home page Log in to the site/input_Username_username'), 'manager1')
+WebUI.setText(findTestObject('Object Repository/Page_Home page Log in to the site/input_Username_username'), 'student1')
 
 WebUI.setEncryptedText(findTestObject('Page_Home page Log in to the site/input_Password_password (1)'), 'OFhcon1PzObx3ErJAwGfGA==')
 

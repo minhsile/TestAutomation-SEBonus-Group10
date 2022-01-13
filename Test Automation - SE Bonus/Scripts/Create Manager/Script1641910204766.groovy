@@ -64,8 +64,7 @@ WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Search
 
 WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Permissio_fb4295/a_Manager'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Group10 Administration Users Permissio_fb4295/select_Nguyen Hoa (student1email.com)    Tr_06c355'), 
-    '5', true)
+WebUI.click(findTestObject('Page_Group10 Administration Users Permissions Assign system roles/option_Nguyen Vy (manager1email.com)'))
 
 WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Permissio_fb4295/input_Match the search text anywhere in the_89f7b5'))
 

@@ -52,17 +52,13 @@ WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Search
 
 WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Permissio_fb4295/a_Teacher'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Group10 Administration Users Permissio_fb4295/select_Nguyen Hoa (student1email.com)    Ng_3a8642'), 
-    '25', true)
+WebUI.click(findTestObject('Page_Group10 Administration Users Permissions Assign system roles/option_Ho Thi Hoang Vy (hthvfit.us.edu.vn)'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Group10 Administration Users Permissio_fb4295/select_Nguyen Hoa (student1email.com)    Ng_3a8642'), 
-    '23', true)
+WebUI.click(findTestObject('Page_Group10 Administration Users Permissions Assign system roles/option_Luong Vi Minh (lvmfit.us.edu.vn)'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Group10 Administration Users Permissio_fb4295/select_Nguyen Hoa (student1email.com)    Ng_3a8642'), 
-    '24', true)
+WebUI.click(findTestObject('Page_Group10 Administration Users Permissions Assign system roles/option_Nguyen Le Hoang Dung (nlhdfit.us.edu.vn)'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Group10 Administration Users Permissio_fb4295/select_Nguyen Hoa (student1email.com)    Ng_3a8642'), 
-    '22', true)
+WebUI.click(findTestObject('Page_Group10 Administration Users Permissions Assign system roles/option_Pham Thi Bach Hue (ptbhfit.us.edu.vn)'))
 
 WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Permissio_fb4295/input_Match the search text anywhere in the_89f7b5_1'))
 
