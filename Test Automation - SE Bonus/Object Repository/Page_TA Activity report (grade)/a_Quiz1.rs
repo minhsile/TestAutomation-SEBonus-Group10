@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//th[@id='row_4_9']/a</value>
+         <value>//*/text()[normalize-space(.)='Quiz1']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>

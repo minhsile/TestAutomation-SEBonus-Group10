@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Test Automation</name>
+   <name>a_Grade_new</name>
    <tag></tag>
-   <elementGuidId>b00a8b20-5d8d-41e0-9991-5e008df6f13e</elementGuidId>
+   <elementGuidId>3c233fc6-b6bc-4e9d-95e3-f703e85918b9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Test Automation']/parent::*</value>
+         <value>//td[@id='mod_assign_grading-51_r1_c5']/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#grade-report-overview-9_r0_c0 > a</value>
+         <value>#mod_assign_grading-51_r1_c5 > a.btn.btn-primary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,76 +28,76 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://localhost/course/user.php?mode=grade&amp;id=2&amp;user=9</value>
+      <value>http://localhost/mod/assign/view.php?id=4&amp;rownum=0&amp;action=grader&amp;userid=54</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Test Automation</value>
+      <value>Grade</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;grade-report-overview-9_r0_c0&quot;)/a[1]</value>
+      <value>id(&quot;mod_assign_grading-51_r1_c5&quot;)/a[@class=&quot;btn btn-primary&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//td[@id='grade-report-overview-9_r0_c0']/a</value>
+      <value>//td[@id='mod_assign_grading-51_r1_c5']/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Test Automation')]</value>
+      <value>(//a[contains(text(),'Grade')])[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Grade'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submitted for grading'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Course name'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Update grade'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact site support'])[1]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Test Automation']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prevent submission changes'])[2]/preceding::a[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://localhost/course/user.php?mode=grade&amp;id=2&amp;user=9']</value>
+      <value>//a[@href='http://localhost/mod/assign/view.php?id=4&amp;rownum=0&amp;action=grader&amp;userid=54']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td/a</value>
+      <value>//tr[2]/td[6]/a</value>
    </webElementXpaths>
 </WebElementEntity>

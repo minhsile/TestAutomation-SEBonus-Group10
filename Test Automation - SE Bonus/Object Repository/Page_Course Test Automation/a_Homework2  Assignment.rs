@@ -6,12 +6,11 @@
    <elementGuidId>85325866-36c0-4f99-a3f1-62b1eaf98338</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Assignment'])[3]/following::a[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[@onclick=''])[4]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

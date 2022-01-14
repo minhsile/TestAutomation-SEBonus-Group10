@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Page_My courses/span_Test Automation'))
 
 WebUI.click(findTestObject('Page_Course Test Automation/a_Homework 1  Assignment'))
 
-WebUI.click(findTestObject('Object Repository/Page_TA Homework 1/button_Edit submission_1_2'))
+WebUI.click(findTestObject('Page_TA Homework 1/button_Edit submission new'))
 
 WebUI.click(findTestObject('Object Repository/Page_TA Homework 1 - Edit submission/div_Rich text editorTest homework1Test home_3db0d2'))
 

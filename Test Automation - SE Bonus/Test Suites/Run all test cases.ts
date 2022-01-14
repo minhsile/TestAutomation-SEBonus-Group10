@@ -251,4 +251,64 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Take the quiz on time - Student</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>6820c901-b8cc-48c4-8d34-8cdc188db266</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Take the quiz late - Student</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c7b33e67-95db-4e77-be47-1370b1b3d74d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Review quizz result - Student</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e0d47e8c-7e20-4236-9e5c-ee8e94230bce</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/See the results of all quizzes - Teacher</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>271f413b-d3a5-4833-9942-b659550459dd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/View grades by subject - Student</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>750c07e4-b4d1-4ec0-85f7-3f635fb9f933</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Submit exercise on time - Student</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bb969790-9821-4943-866c-d03f0644f97c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Submit with over limit words - Student</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b00fd531-c2f5-4e08-a2c6-984592bf2780</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Submit exercise late - Student</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>395f0deb-3baf-4a39-934c-4b8d88e53ff1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/View the result of all students in the quiz</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8aa05c62-7493-4b3f-82d4-7bd20fd77c09</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Send feedback of assignment</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3e922bda-259a-41df-9af2-3f18a1e8685c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/View courses - Guest</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

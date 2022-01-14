@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='single_button61deac6a857676']</value>
+         <value>//*/text()[normalize-space(.)='Continue']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>

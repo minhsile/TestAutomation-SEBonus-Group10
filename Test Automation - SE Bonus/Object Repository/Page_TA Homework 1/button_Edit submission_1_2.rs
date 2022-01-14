@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='single_button61deb1d085d3711']</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove submission'])[2]/preceding::button[1]</value>
       </entry>
       <entry>
          <key>CSS</key>

@@ -33,13 +33,13 @@ WebUI.click(findTestObject('Page_Dashboard/a_My courses (1)'))
 
 WebUI.click(findTestObject('Page_My courses/span_Test Automation'))
 
-WebUI.click(findTestObject('Page_Course Test Automation/a_Quiz2'))
+WebUI.click(findTestObject('Page_Course Test Automation/Homework 1  Assignment'))
 
 WebUI.click(findTestObject('Page_Course Test Automation/Page_TA Bonus assignment (Extend 1 week)/a_Grade'))
 
 WebUI.click(findTestObject('Page_Course Test Automation/Page_TA Bonus assignment (Extend 1 week) - Grading/a_View all submissions'))
 
-WebUI.click(findTestObject('Page_Course Test Automation/Page_TA Bonus assignment (Extend 1 week) - Grading/a_Grade'))
+WebUI.click(findTestObject('Page_Course Test Automation/Page_TA Bonus assignment (Extend 1 week) - Grading/a_Grade_new'))
 
 WebUI.setText(findTestObject('Page_Course Test Automation/Page_TA Bonus assignment (Extend 1 week) - Grading/input_Grade out of 100_grade'), 
     '95')
@@ -49,7 +49,7 @@ WebUI.setText(findTestObject('Page_Course Test Automation/Page_TA Bonus assignme
 
 WebUI.click(findTestObject('Page_Course Test Automation/Page_TA Bonus assignment (Extend 1 week) - Grading/button_Save changes'))
 
-WebUI.click(findTestObject('Page_Course Test Automation/Page_TA Bonus assignment (Extend 1 week) - Grading/a_Assignment Bonus assignment (Extend 1 week)'))
+WebUI.click(findTestObject('Page_Course Test Automation/Page_TA Bonus assignment (Extend 1 week) - Grading/a_Assignment Homework 1 back'))
 
 WebUI.click(findTestObject('Page_Dashboard/a_NH'))
 

@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Page_Dashboard/a_My courses (1)'))
 
 WebUI.click(findTestObject('Page_My courses/span_Test Automation'))
 
-WebUI.click(findTestObject('Page_Course Test Automation/View result of quiz/a_Quiz1'))
+WebUI.click(findTestObject('Page_Course Test Automation/View result of quiz/a_Quiz1_new'))
 
 WebUI.click(findTestObject('Page_Course Test Automation/View result of quiz/a_Results'))
 

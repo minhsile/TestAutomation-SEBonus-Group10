@@ -6,12 +6,12 @@
    <elementGuidId>f3af9d78-37fc-42d9-9197-c9d85520dcc9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#single_button61dee20a2a31e6</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Submission status'])[1]/preceding::button[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='single_button61dee20a2a31e6']</value>
+         <key>CSS</key>
+         <value>#single_button61dee20a2a31e6</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

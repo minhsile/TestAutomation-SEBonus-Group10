@@ -6,12 +6,16 @@
    <elementGuidId>ce25bb1d-87b4-4210-939c-f4cdf045b77e</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Hidden from students'])[1]/preceding::a[1]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>a.btn.btn-primary</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='region-main']/div[2]/div/div/div[2]/a</value>
+         <key>BASIC</key>
+         <value>//*[@href = 'http://localhost/mod/assign/view.php?id=10&amp;action=grader' and (text() = 'Grade' or . = 'Grade')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

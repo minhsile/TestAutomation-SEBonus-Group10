@@ -6,12 +6,12 @@
    <elementGuidId>b22b924f-79a4-4817-b509-8d7cd131c9c3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>p</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Test homework2']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='id_onlinetext_editoreditable']/p</value>
+         <key>CSS</key>
+         <value>p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

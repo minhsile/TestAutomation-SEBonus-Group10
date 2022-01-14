@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Test Automation</name>
+   <name>Homework 1  Assignment</name>
    <tag></tag>
-   <elementGuidId>b00a8b20-5d8d-41e0-9991-5e008df6f13e</elementGuidId>
+   <elementGuidId>c5cdebdc-9f87-44c9-8b7c-60504592e653</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Test Automation']/parent::*</value>
+         <value>(//a[@onclick=''])[5]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#grade-report-overview-9_r0_c0 > a</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,76 +28,71 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://localhost/course/user.php?mode=grade&amp;id=2&amp;user=9</value>
+      <value>http://localhost/mod/assign/view.php?id=4</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> aalink stretched-link</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Test Automation</value>
+      <value>
+                            Homework 1  Assignment
+                        </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;grade-report-overview-9_r0_c0&quot;)/a[1]</value>
+      <value>id(&quot;module-4&quot;)/div[@class=&quot;activity-item&quot;]/div[@class=&quot;activity-basis d-flex align-items-center&quot;]/div[@class=&quot;d-flex flex-column flex-md-row w-100 align-self-start&quot;]/div[@class=&quot;activity-instance d-flex flex-column&quot;]/div[@class=&quot;activitytitle media  modtype_assign position-relative align-self-start&quot;]/div[@class=&quot;media-body align-self-center&quot;]/div[@class=&quot;activityname&quot;]/a[@class=&quot;aalink stretched-link&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//a[@onclick=''])[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//td[@id='grade-report-overview-9_r0_c0']/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Test Automation')]</value>
+      <value>//li[@id='module-4']/div/div/div/div/div/div[2]/div[2]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Grade'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assignment'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Course name'])[1]/following::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact site support'])[1]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Test Automation']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Homework'])[2]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://localhost/course/user.php?mode=grade&amp;id=2&amp;user=9']</value>
+      <value>(//a[@href='http://localhost/mod/assign/view.php?id=4'])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td/a</value>
+      <value>//li[3]/div[2]/ul/li/div/div/div/div/div/div[2]/div[2]/a</value>
    </webElementXpaths>
 </WebElementEntity>
