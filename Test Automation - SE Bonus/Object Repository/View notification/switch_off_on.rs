@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_You have submitted your assignment subm_a37a40</name>
+   <name>switch_off_on</name>
    <tag></tag>
-   <elementGuidId>43fe84d3-046b-453d-9ffb-5440300362e7</elementGuidId>
+   <elementGuidId>603574f9-5c91-4724-8200-5bc9c2fc3ab9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='You have submitted your assignment submission for Homework 1']/parent::*</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='When you are logged into Moodle'])[2]/preceding::label[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.notification-message</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'You have submitted your assignment submission for Homework 1' or . = 'You have submitted your assignment submission for Homework 1')]</value>
+         <value>#yui_3_17_2_1_1642175288279_21</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,76 +21,94 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>notification-message</value>
+      <value>custom-control custom-switch</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>When you are logged into Moodle</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-state</name>
+      <type>Main</type>
+      <value>loggedin</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>yui_3_17_2_1_1642175288279_21</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>You have submitted your assignment submission for Homework 1</value>
+      <value>
+                                                When you are logged into Moodle
+                                                
+                                                
+                                            </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;popover-region-container-61de96947ee1461de9694709a83&quot;)/div[@class=&quot;popover-region-content-container&quot;]/div[@class=&quot;popover-region-content&quot;]/div[@class=&quot;all-notifications&quot;]/div[@class=&quot;content-item-container notification unread&quot;]/a[@class=&quot;context-link&quot;]/div[@class=&quot;content-item-body&quot;]/div[@class=&quot;notification-message&quot;]</value>
+      <value>id(&quot;yui_3_17_2_1_1642175288279_21&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@id='yui_3_17_2_1_1642175288279_21']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='popover-region-container-61de96947ee1461de9694709a83']/div[2]/div/div/div/a/div/div[2]</value>
+      <value>//div[@id='yui_3_17_2_1_1642175288279_22']/label</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[1]/following::div[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Disabled'])[1]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='My courses'])[1]/following::div[14]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assignment notifications'])[1]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='View full notification'])[1]/preceding::div[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='You have submitted your assignment submission for Homework 1'])[2]/preceding::div[4]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='You have submitted your assignment submission for Homework 1']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='When you are logged into Moodle'])[2]/preceding::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a/div/div[2]</value>
+      <value>//div/div/div/div/label</value>
    </webElementXpaths>
 </WebElementEntity>
