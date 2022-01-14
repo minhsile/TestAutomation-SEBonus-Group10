@@ -7,14 +7,21 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'http://localhost/mod/assign/view.php?id=4' and (text() = '
+                            Homework 1  Assignment
+                        ' or . = '
+                            Homework 1  Assignment
+                        ')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(//a[@onclick=''])[3]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

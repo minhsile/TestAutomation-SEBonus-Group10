@@ -6,12 +6,15 @@
    <elementGuidId>091d6c3a-3bd2-4d85-b0a2-0ee7223b0d0f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='yui_3_17_2_1_1641979964749_30']/div[4]/div/div/div/button/span/i</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>id(&quot;yui_3_17_2_1_1641979964749_30&quot;)/div[@class=&quot;border-bottom p-1 px-sm-2 view-search&quot;]/div[@class=&quot;d-flex align-items-center&quot;]/div[@class=&quot;input-group simplesearchform&quot;]/div[@class=&quot;input-group-append&quot;]/button[@class=&quot;btn btn-submit icon-no-margin&quot;]/span[1]/i[@class=&quot;icon fa fa-search fa-fw&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button/span/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

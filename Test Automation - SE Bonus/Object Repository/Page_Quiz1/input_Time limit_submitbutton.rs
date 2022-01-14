@@ -6,12 +6,16 @@
    <elementGuidId>9ffb7d84-2e9f-4d43-848e-9b0db9cf57b3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='fgroup_id_buttonar']/div[2]/fieldset/div/div/span/input</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#id_submitbutton</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and @name = 'submitbutton' and @id = 'id_submitbutton']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='fgroup_id_buttonar']/div[2]/fieldset/div/div/span/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

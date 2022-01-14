@@ -6,12 +6,16 @@
    <elementGuidId>fc6a586c-ca26-49f3-a9f0-47d3e07deb73</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//table[@id='month-detailed-61de9e0a3f53661de9e09d19272-1']/tbody/tr[4]/td[3]/div/a/span/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.aalink.day > span.day-number-circle > span.day-number</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '19' or . = '19')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='19']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

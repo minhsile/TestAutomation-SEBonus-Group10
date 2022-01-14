@@ -6,15 +6,19 @@
    <elementGuidId>43fe84d3-046b-453d-9ffb-5440300362e7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='popover-region-container-61de96947ee1461de9694709a83']/div[2]/div/div/div/a/div/div[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.notification-message</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'You have submitted your assignment submission for Homework 1' or . = 'You have submitted your assignment submission for Homework 1')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='popover-region-container-61de96947ee1461de9694709a83']/div[2]/div/div/div/a/div/div[2]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

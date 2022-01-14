@@ -191,4 +191,64 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Add event to calendar</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>9fad436e-d988-4219-8220-4d64828fd9c4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Add a lesson note</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1895a4d2-2ba3-484b-ab34-16a40b7fbef5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Delete a lesson note</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>909854e9-445a-42bf-8458-6689bcc532ed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Add a URL</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fad0de30-12d7-4e9d-8010-dd33c0fca336</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Enroll student in a course</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6da96436-a108-45c0-87dc-0c549868e637</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Enroll in a course with incorrect key</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9377bb83-7a09-47d4-a347-a9bf2dcea428</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Enroll in a course with valid key</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>14b2778f-a99d-4353-bfc7-f9cec662c8cb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/View notification - Student</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5c686c8e-a226-4684-b6ed-7fecacc73c56</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/View event on calendar - Student</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d8f4aecb-1c5b-40e2-90a3-7f2eda15bf21</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Chatting - Student</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8f6e4c46-ff40-42fc-af27-973ca98790e7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Take the quiz on time - Student</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

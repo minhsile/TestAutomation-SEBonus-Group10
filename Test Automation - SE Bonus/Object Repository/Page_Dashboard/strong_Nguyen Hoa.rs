@@ -6,12 +6,12 @@
    <elementGuidId>2e1cad96-71a6-45ae-887b-ab3f70587202</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='view-overview-favourites-target-61de9f2dc7fc061de9f2d2144e7']/div[2]/a/div/div/strong</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>strong.m-0.text-truncate</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Group'])[1]/preceding::strong[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

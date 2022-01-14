@@ -6,12 +6,12 @@
    <elementGuidId>7dfce29b-c5c0-483a-9df0-b2a9a44f56d7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='yui_3_17_2_1_1641979964749_25']/div[6]/div/div/div/div[2]/div/a/h6/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.matchtext</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Nguyen Nga']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

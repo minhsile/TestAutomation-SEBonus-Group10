@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Page_Course Test Automation/Enroll student/a_Partici
 
 WebUI.click(findTestObject('Page_Course Test Automation/Enroll student/input_With selected users_btn btn-primary'))
 
-WebUI.setText(findTestObject('Page_Course Test Automation/Enroll student/input_name_user'), 'Si Minh')
+WebUI.setText(findTestObject('Page_Course Test Automation/Enroll student/input_name_user'), 'Nguyen Hoa')
 
 WebUI.click(findTestObject('Page_Course Test Automation/Enroll student/span_Si Minh'))
 

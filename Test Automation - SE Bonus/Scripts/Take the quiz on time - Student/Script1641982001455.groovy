@@ -41,7 +41,7 @@ WebUI.click(findTestObject('Object Repository/Page_Quiz1/input_Time limit_submit
 
 WebUI.click(findTestObject('Object Repository/Page_Quiz1/label_True'))
 
-WebUI.click(findTestObject('Object Repository/Page_Quiz1/a_Finish attempt'))
+WebUI.click(findTestObject('Page_TA Quiz1/finish attempt new'))
 
 WebUI.click(findTestObject('Object Repository/Page_Quiz1 Attempt summary/button_Submit all and finish'))
 

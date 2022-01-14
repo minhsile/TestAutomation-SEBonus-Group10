@@ -6,12 +6,12 @@
    <elementGuidId>57529012-b740-4e5e-9168-3f8a19110c71</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='calendar-day-61de9e146aa6e61de9e14027286']/div[2]/div[2]/div/div/div[3]/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.card-link</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Go to activity']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

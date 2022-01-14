@@ -45,7 +45,7 @@ WebUI.click(findTestObject('Page_Course Test Automation/Add lesson note/Select f
 
 WebUI.click(findTestObject('Page_Course Test Automation/Add lesson note/select upload file method'))
 
-WebUI.uploadFile(findTestObject('Page_Course Test Automation/Add lesson note/choose file upload'), 'D:\\Katalon\\Note-Week02.docx')
+WebUI.uploadFile(findTestObject('Page_Course Test Automation/Add lesson note/choose file upload'), 'D:\\TestAutomation-SEBonus-Group10\\Note-Week02.docx')
 
 WebUI.click(findTestObject('Page_Course Test Automation/Add lesson note/button_Upload this file'))
 

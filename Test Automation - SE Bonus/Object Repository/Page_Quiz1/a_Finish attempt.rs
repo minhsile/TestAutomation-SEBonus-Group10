@@ -6,12 +6,16 @@
    <elementGuidId>b7a6deb8-09fb-4cda-89f6-37132c46d0b4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='mod_quiz_navblock']/div/div/div[2]/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.endtestlink.aalink</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'http://localhost/mod/quiz/summary.php?attempt=2&amp;cmid=5' and (text() = 'Finish attempt ...' or . = 'Finish attempt ...')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section/div/div/div[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
