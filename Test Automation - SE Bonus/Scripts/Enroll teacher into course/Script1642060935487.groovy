@@ -57,7 +57,8 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HQTCSDL Partici
     '7', true)*/
 WebUI.click(findTestObject('Object Repository/Page_HQTCSDL Participants/div_Assign role'))
 
-WebUI.click(findTestObject('Page_HQTCSDL Participants/select_Manager            Teacher          _ffc00f'))
+WebUI.selectOptionByLabel(findTestObject('Page_HQTCSDL Participants/select_Manager            Teacher          _ffc00f'), 
+    'Teacher', false)
 
 WebUI.click(findTestObject('Object Repository/Page_HQTCSDL Participants/button_Enrol users'))
 
@@ -89,7 +90,8 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HQTCSDL Partici
     '7', true)*/
 WebUI.click(findTestObject('Object Repository/Page_HQTCSDL Participants/div_Assign role'))
 
-WebUI.click(findTestObject('Page_HQTCSDL Participants/select_Manager            Teacher            Non-editing teacher            Student'))
+WebUI.selectOptionByLabel(findTestObject('Page_HQTCSDL Participants/select_Manager            Teacher            Non-editing teacher            Student'), 
+    'Teacher', false)
 
 WebUI.click(findTestObject('Object Repository/Page_HQTCSDL Participants/button_Enrol users'))
 

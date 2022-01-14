@@ -7,16 +7,12 @@
    <imagePath></imagePath>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Nguyen Nga'])[3]/following::li[1]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
+         <key>IMAGE</key>
          <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = '
+         <value>//*[@aria-selected = 'false' and (text() = '
     
     Nguyen Nga
     teacher1@email.com
@@ -27,11 +23,15 @@
 ')]</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
+         <key>CSS</key>
          <value></value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Nguyen Nga'])[3]/following::li[1]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <value>76</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-selected</name>
       <type>Main</type>

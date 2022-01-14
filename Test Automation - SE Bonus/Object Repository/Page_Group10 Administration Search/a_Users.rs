@@ -9,6 +9,14 @@
          <key>CSS</key>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '#linkusers' and (text() = '
+                                                    Users
+                                                ' or . = '
+                                                    Users
+                                                ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'Users')]</value>
       </entry>

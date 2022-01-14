@@ -31,6 +31,8 @@ WebUI.click(findTestObject('Object Repository/Page_Home page Log in to the site/
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Site administration'))
 
+WebUI.scrollToPosition(0, 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Search/a_Users'))
 
 WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Search/a_Add a new user'))
@@ -59,6 +61,8 @@ WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users 
 WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Accounts _9567d5/span_AU'))
 
 WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Permissio_4e74a7/a_Site administration'))
+
+WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Search/a_Users'))
 

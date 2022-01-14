@@ -6,10 +6,6 @@
    <elementGuidId>c53fe539-62a6-4a74-a38c-0be4ee740695</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#id_roletoassign</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@name = 'roletoassign' and @id = 'id_roletoassign' and (text() = '
             Manager
@@ -24,8 +20,12 @@
         ')]</value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>#id_roletoassign</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[2]/div[2]/select</value>
+         <value>//select[@id='id_roletoassign']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

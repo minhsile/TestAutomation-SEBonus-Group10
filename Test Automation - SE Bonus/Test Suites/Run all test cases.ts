@@ -33,7 +33,7 @@
       <guid>582322f3-e63e-4432-9faf-0b8c69e25fb4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Create noneditingteacher</testCaseId>
+      <testCaseId>Test Cases/Create nonediting teacher</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b9bdfea2-6007-42fa-8cda-92f4a1e59651</guid>
@@ -186,9 +186,9 @@
       <testCaseId>Test Cases/Edit assignment</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1540a183-97de-45f4-a1c8-c8575a15f1e8</guid>
+      <guid>d359dc6a-6b4c-4bcc-be58-8ed51d766acb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/View the result of all students in the quiz</testCaseId>
+      <testCaseId>Test Cases/Add event to calendar</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
