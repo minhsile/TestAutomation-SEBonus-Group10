@@ -35,14 +35,11 @@ WebUI.click(findTestObject('Object Repository/Page_My courses/span_H quan tri c 
 
 WebUI.click(findTestObject('Object Repository/Page_Course H quan tri c s d liu/a_Participants'))
 
-WebUI.click(findTestObject('Object Repository/Page_HQTCSDL Participants/input_With selected users_btn btn-primary'))
+WebUI.click(findTestObject('Page_HQTCSDL Participants/input_Participants tertiary navigation_btn btn-primary'))
 
-WebUI.click(findTestObject('Object Repository/Page_HQTCSDL Participants/span_'))
+WebUI.click(findTestObject('Page_HQTCSDL Participants/span_'))
 
-WebUI.click(findTestObject('Object Repository/Page_HQTCSDL Participants/span_Nguyen Nga'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HQTCSDL Participants/select_guest1 group10    guest1group10email_b41192'), 
-    '7', true)
+WebUI.click(findTestObject('Page_HQTCSDL Participants/li_Nguyen Nga    teacher1email.com'))
 
 /*WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HQTCSDL Participants/select_guest1 group10    guest1group10email_b41192'), 
     '7', true)
@@ -60,8 +57,39 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HQTCSDL Partici
     '7', true)*/
 WebUI.click(findTestObject('Object Repository/Page_HQTCSDL Participants/div_Assign role'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HQTCSDL Participants/select_Manager            Teacher          _ffc00f'), 
-    '3', true)
+WebUI.click(findTestObject('Page_HQTCSDL Participants/select_Manager            Teacher          _ffc00f'))
+
+WebUI.click(findTestObject('Object Repository/Page_HQTCSDL Participants/button_Enrol users'))
+
+WebUI.click(findTestObject('Object Repository/Page_TA Participants/a_My courses'))
+
+WebUI.click(findTestObject('Page_My courses/span_Test Automation'))
+
+WebUI.click(findTestObject('Object Repository/Page_Course H quan tri c s d liu/a_Participants'))
+
+WebUI.click(findTestObject('Page_HQTCSDL Participants/input_Participants tertiary navigation_btn btn-primary'))
+
+WebUI.click(findTestObject('Page_HQTCSDL Participants/span_'))
+
+WebUI.click(findTestObject('Page_HQTCSDL Participants/li_Nguyen Nga    teacher1email.com'))
+
+/*WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HQTCSDL Participants/select_guest1 group10    guest1group10email_b41192'), 
+    '7', true)
+
+//WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HQTCSDL Participants/select_guest1 group10    guest1group10email_b41192'), 
+    '7', true)
+
+//WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HQTCSDL Participants/select_guest1 group10    guest1group10email_b41192'), 
+    '7', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HQTCSDL Participants/select_guest1 group10    guest1group10email_b41192'), 
+    '7', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HQTCSDL Participants/select_guest1 group10    guest1group10email_b41192'), 
+    '7', true)*/
+WebUI.click(findTestObject('Object Repository/Page_HQTCSDL Participants/div_Assign role'))
+
+WebUI.click(findTestObject('Page_HQTCSDL Participants/select_Manager            Teacher            Non-editing teacher            Student'))
 
 WebUI.click(findTestObject('Object Repository/Page_HQTCSDL Participants/button_Enrol users'))
 

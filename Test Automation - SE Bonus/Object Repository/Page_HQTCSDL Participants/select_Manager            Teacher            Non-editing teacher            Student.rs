@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_</name>
+   <name>select_Manager            Teacher            Non-editing teacher            Student</name>
    <tag></tag>
-   <elementGuidId>f1efc89e-6d67-4120-9ac9-0710faa42f57</elementGuidId>
+   <elementGuidId>018d1eb1-bf7e-49f0-936a-96b10f28e048</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='fitem_id_userlist']/div[2]/div[3]/span</value>
+         <key>CSS</key>
+         <value>#id_roletoassign</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#form_autocomplete_downarrow-1642093324176</value>
+         <key>BASIC</key>
+         <value>//*[@name = 'roletoassign' and (text() = '
+            Manager
+            Teacher
+            Non-editing teacher
+            Student
+        ' or . = '
+            Manager
+            Teacher
+            Non-editing teacher
+            Student
+        ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='id_roletoassign']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,97 +35,125 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-autocomplete-downarrow position-absolute p-1</value>
+      <value>custom-select
+                       
+                       </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>roletoassign</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>form_autocomplete_downarrow-1642093324176</value>
+      <value>id_roletoassign</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-initial-value</name>
+      <type>Main</type>
+      <value>5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>▼</value>
+      <value>
+            Manager
+            Teacher
+            Non-editing teacher
+            Student
+        </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form_autocomplete_downarrow-1642093324176&quot;)</value>
+      <value>id(&quot;id_roletoassign&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//span[@id='form_autocomplete_downarrow-1642093324176']</value>
+      <value>//select[@id='id_roletoassign']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='fitem_id_userlist']/div[2]/div[3]/span</value>
+      <value>//div[@id='yui_3_17_2_1_1642150454563_254']/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No selection'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assign role'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Selected items:'])[1]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='▼'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assign role'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Recover user', &quot;'&quot;, 's old grades if possible')])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Recover user', &quot;'&quot;, 's old grades if possible')])[1]/preceding::span[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='▼']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Starting from'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[3]/span</value>
+      <value>//div[2]/div[2]/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='form_autocomplete_downarrow-1642060629786']</value>
+      <value>//div[@id='yui_3_17_2_1_1642149440675_211']/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1642091633652_232']/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='manager1@email.com'])[2]/following::select[1]</value>
    </webElementXpaths>
 </WebElementEntity>

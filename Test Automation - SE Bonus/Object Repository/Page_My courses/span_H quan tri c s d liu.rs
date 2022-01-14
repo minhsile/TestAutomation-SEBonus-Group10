@@ -6,12 +6,12 @@
    <elementGuidId>ae5f5ce3-8e43-4a51-ac41-a6b4fa787ced</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.multiline</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Hệ quản trị cơ sở dữ liệu']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='course-info-container-4-2']/div/div/a/span[3]</value>
+         <key>CSS</key>
+         <value>span.multiline</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

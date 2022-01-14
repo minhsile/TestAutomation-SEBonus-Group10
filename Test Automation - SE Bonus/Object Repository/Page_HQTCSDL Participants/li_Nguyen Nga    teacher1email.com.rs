@@ -1,17 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_</name>
+   <name>li_Nguyen Nga    teacher1email.com</name>
    <tag></tag>
-   <elementGuidId>f1efc89e-6d67-4120-9ac9-0710faa42f57</elementGuidId>
+   <elementGuidId>5e8eabcf-550c-45f6-9370-74e6da7ae707</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='fitem_id_userlist']/div[2]/div[3]/span</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Nguyen Nga'])[3]/following::li[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#form_autocomplete_downarrow-1642093324176</value>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '
+    
+    Nguyen Nga
+    teacher1@email.com
+' or . = '
+    
+    Nguyen Nga
+    teacher1@email.com
+')]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,97 +38,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>li</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>role</name>
       <type>Main</type>
-      <value>form-autocomplete-downarrow position-absolute p-1</value>
+      <value>option</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>data-value</name>
       <type>Main</type>
-      <value>form_autocomplete_downarrow-1642093324176</value>
+      <value>76</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>▼</value>
+      <value>
+    
+    Nguyen Nga
+    teacher1@email.com
+</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form_autocomplete_downarrow-1642093324176&quot;)</value>
+      <value>id(&quot;form_autocomplete_suggestions-1642091960930&quot;)/li[8]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//span[@id='form_autocomplete_downarrow-1642093324176']</value>
+      <value>(//li[@id=''])[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='fitem_id_userlist']/div[2]/div[3]/span</value>
+      <value>//ul[@id='form_autocomplete_suggestions-1642091960930']/li[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No selection'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='coursecreator1@email.com'])[2]/following::li[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Selected items:'])[1]/following::span[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assign role'])[1]/preceding::span[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Recover user', &quot;'&quot;, 's old grades if possible')])[1]/preceding::span[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='▼']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nguyen Nga'])[3]/following::li[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[3]/span</value>
+      <value>//div[2]/ul/li[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='form_autocomplete_downarrow-1642060629786']</value>
+      <value>//ul[@id='form_autocomplete_suggestions-1642091634070']/li[8]</value>
    </webElementXpaths>
 </WebElementEntity>

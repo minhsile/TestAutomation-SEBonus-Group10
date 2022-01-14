@@ -10,8 +10,22 @@
          <value>#id_roletoassign</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'roletoassign' and @id = 'id_roletoassign' and (text() = '
+            Manager
+            Teacher
+            Non-editing teacher
+            Student
+        ' or . = '
+            Manager
+            Teacher
+            Non-editing teacher
+            Student
+        ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//select[@id='id_roletoassign']</value>
+         <value>//div[2]/div[2]/select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
