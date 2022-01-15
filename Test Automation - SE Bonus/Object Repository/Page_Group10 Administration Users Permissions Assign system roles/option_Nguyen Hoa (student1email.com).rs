@@ -6,12 +6,12 @@
    <elementGuidId>38afc4cf-f431-4e4e-8644-22e33442d1bc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#yui_3_17_2_1_1642065965947_103</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//*/text()[normalize-space(.)='Nguyen Hoa (student1@email.com)']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#yui_3_17_2_1_1642065965947_103</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

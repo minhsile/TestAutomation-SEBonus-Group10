@@ -19,7 +19,64 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('localhost')
+WebUI.navigateToUrl('http://localhost/')
+
+WebUI.click(findTestObject('Object Repository/Page_Home page/a_Log in'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Home page Log in to the site/input_Username_username'), 'admin')
+
+WebUI.setEncryptedText(findTestObject('Page_Home page Log in to the site/input_Password_password (1)'), 'OFhcon1PzObx3ErJAwGfGA==')
+
+WebUI.click(findTestObject('Object Repository/Page_Home page Log in to the site/button_Log in'))
+
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Site administration'))
+
+WebUI.scrollToPosition(0, 0)
+
+WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Search/a_Users'))
+
+WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Search/a_Add a new user'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Group10 Administration Users Accounts _5007a8/input_Username_username'), 
+    'student2')
+
+WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Accounts _5007a8/em_Click to enter text'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Group10 Administration Users Accounts _5007a8/input_New password_newpassword'), 
+    'OFhcon1PzObx3ErJAwGfGA==')
+
+WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Accounts _5007a8/i_Click to enter text_icon fa fa-eye fa-fw'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Group10 Administration Users Accounts _5007a8/input_First name_firstname'), 
+    'Si')
+
+WebUI.setText(findTestObject('Object Repository/Page_Group10 Administration Users Accounts _5007a8/input_Surname_lastname'), 
+    'Minh')
+
+WebUI.setText(findTestObject('Object Repository/Page_Group10 Administration Users Accounts _5007a8/input_Email address_email'), 
+    'student2@email.com')
+
+WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Accounts _5007a8/input_Address_submitbutton'))
+
+WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Accounts _9567d5/span_AU'))
+
+WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Permissio_4e74a7/a_Site administration'))
+
+WebUI.scrollToPosition(0, 0)
+
+WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Search/a_Users'))
+
+WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Search/a_Assign system roles'))
+
+WebUI.click(findTestObject('Page_Group10 Administration Users Permissions Assign system roles/a_Student'))
+
+WebUI.click(findTestObject('Page_Group10 Administration Users Permissions Assign system roles/option_Si Minh (student2email.com)'))
+
+WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Permissio_fb4295/input_Match the search text anywhere in the_89f7b5'))
+
+WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Accounts _9567d5/span_AU'))
+
+WebUI.click(findTestObject('Object Repository/Page_Group10 Administration Users Accounts _9567d5/a_Log out'))
 
 WebUI.click(findTestObject('Page_Home page/a_Log in'))
 
