@@ -39,6 +39,9 @@ WebUI.click(findTestObject('Page_Course Test Automation/Page_TA Bonus assignment
 
 WebUI.click(findTestObject('Page_Course Test Automation/Page_TA Bonus assignment (Extend 1 week) - Grading/a_View all submissions'))
 
+WebUI.verifyElementText(findTestObject('Page_Course Test Automation/Page_TA Bonus assignment (Extend 1 week) - Grading/div_Submitted for grading'), 
+    'Submitted for grading')
+
 WebUI.click(findTestObject('Page_Course Test Automation/Page_TA Bonus assignment (Extend 1 week) - Grading/a_Grade_new'))
 
 WebUI.setText(findTestObject('Page_Course Test Automation/Page_TA Bonus assignment (Extend 1 week) - Grading/input_Grade out of 100_grade'), 

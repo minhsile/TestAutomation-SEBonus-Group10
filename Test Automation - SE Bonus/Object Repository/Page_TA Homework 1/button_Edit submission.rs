@@ -6,12 +6,12 @@
    <elementGuidId>97bb6e48-4834-43b5-9753-b0b08b1bcbec</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#single_button61dee085a348c6</value>
+         <key>XPATH</key>
+         <value>//section[@id='region-main']/div[2]/div/div/div/div/form/button</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//form/button</value>
+         <key>CSS</key>
+         <value>#single_button61dee085a348c6</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

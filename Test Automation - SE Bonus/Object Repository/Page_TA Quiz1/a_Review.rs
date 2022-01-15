@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='region-main']/div[2]/div[2]/table/tbody/tr/td[5]/a</value>
+         <value>//a[contains(text(),'Review')]</value>
       </entry>
       <entry>
          <key>CSS</key>
