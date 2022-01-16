@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[@id='mod_assign_grading-51_r1_c5']/a</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Submitted for grading'])[1]/following::a[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
