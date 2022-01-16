@@ -6,12 +6,12 @@
    <elementGuidId>09376d5f-7a1a-4422-8866-e4ea36b4294e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#yui_3_17_2_1_1642052052861_190 > a</value>
+         <key>XPATH</key>
+         <value>//section/div[2]/div/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'https://www.youtube.com/watch?v=jNxUnXahFcg&amp;ab_channel=FITHCMUS')]</value>
+         <key>CSS</key>
+         <value>#yui_3_17_2_1_1642052052861_190 > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
